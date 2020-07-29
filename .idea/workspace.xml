@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c52002d2-74f0-4989-8b80-f1c2a923e0a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1fN73FRaSSMoDlWhjso7yuMffmU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/video" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/video" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/nikola43/compressVideoGolang (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="compressVideoGolang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/nikola43/compressVideoGolang" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/nikola43/compressVideoGolang (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="compressVideoGolang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/nikola43/compressVideoGolang" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/nikola43/compressVideoGolang" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="compressVideoGolang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/nikola43/compressVideoGolang" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="compressVideoGolang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/nikola43/compressVideoGolang" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/nikola43/compressVideoGolang (1)" />
+        <item itemvalue="Go Build.go build github.com/nikola43/compressVideoGolang" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c52002d2-74f0-4989-8b80-f1c2a923e0a0" name="Default Changelist" comment="" />
+      <created>1596046495610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596046495610</updated>
+      <workItem from="1596046497525" duration="2032000" />
+      <workItem from="1596048615013" duration="21000" />
+      <workItem from="1596048640076" duration="420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="392" key="#GOROOT" timestamp="1596046546760">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="520" y="392" key="#GOROOT/0.25.1440.875@0.25.1440.875" timestamp="1596046546760" />
+    <state x="521" y="300" key="#Go_Modules" timestamp="1596048536741">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="521" y="300" key="#Go_Modules/0.25.1440.875@0.25.1440.875" timestamp="1596048536741" />
+    <state x="412" y="100" key="#go_build_github.com/nikola43/compressVideoGolang" timestamp="1596048661192">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="412" y="100" key="#go_build_github.com/nikola43/compressVideoGolang/0.25.1440.875@0.25.1440.875" timestamp="1596048661192" />
+    <state x="411" y="100" key="#go_build_github.com/nikola43/compressVideoGolang_(1)" timestamp="1596048673434">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="411" y="100" key="#go_build_github.com/nikola43/compressVideoGolang_(1)/0.25.1440.875@0.25.1440.875" timestamp="1596048673434" />
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1596049060381">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1596049060381" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1596049060379">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1596049060379" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1596049060378">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1596049060378" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1596049060380">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1596049060380" />
+  </component>
+</project>
