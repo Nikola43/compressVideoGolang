@@ -48,7 +48,7 @@ func compressMP4(inFile string, outFile string) error {
 
 	// extract audio from video using ffmpeg library
 	// ffmpeg -i input.mp4 -vcodec h264 -acodec aac output.mp4
-	err = executeCommandVerbose("ffmpeg", "-i", inFile, "-vcodec", "h264", "-acodec", "acc", outFile)
+	err = executeCommandVerbose("ffmpeg", "-i", inFile, "-vcodec", "h264", "-acodec", "mp3", outFile)
 	if err != nil {
 		return err
 	}
