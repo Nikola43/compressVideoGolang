@@ -52,11 +52,11 @@ func compressMP4(inFile string, outFile string) error {
 	if err != nil {
 		return err
 	}
-	err = CheckIfFileExists(inFile)
+	err = CheckIfFileExists(outFile)
 	if err != nil {
 		return err
 	}
-	return err
+	return nil
 }
 
 /**
