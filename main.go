@@ -19,8 +19,12 @@ func main() {
 	err := compressMP4(inputFile, outputFile)
 	checkError(err)
 
-	fmt.Print(inputFile + "->" + strconv.FormatInt(getFileSize(inputFile), 10))
-	fmt.Print(outputFile + "->" + strconv.FormatInt(getFileSize(outputFile), 10))
+	fmt.Print(inputFile + "->" + strconv.FormatInt(getFileSize(inputFile), 10) + " " + strconv.FormatInt(calculateCompressionPercentage(getFileSize(inputFile), getFileSize(inputFile)), 10) + "%")
+	fmt.Print(outputFile + "->" + strconv.FormatInt(getFileSize(outputFile), 10) + " " + strconv.FormatInt(calculateCompressionPercentage(getFileSize(inputFile), getFileSize(inputFile)), 10) + "%")
+}
+
+func calculateCompressionPercentage(originalFileSize int64, outputFileSize int64) int64 {
+	return (100 * outputFileSize) / originalFileSize
 }
 
 func compressMP4(inFile string, outFile string) error {
@@ -31,19 +35,19 @@ func compressMP4(inFile string, outFile string) error {
 	}
 
 	/*
-	// check if input file exists
-	err = CheckIfFileExists(outFile)
-	if err != nil {
-		return err
-	} else {
-		//if exists then remove
-		fmt.Println("output file called " + outFile + " already exist. Removing...")
-		removeError := os.Remove(outFile)
-		if removeError != nil {
-			return removeError
+		// check if input file exists
+		err = CheckIfFileExists(outFile)
+		if err != nil {
+			return err
+		} else {
+			//if exists then remove
+			fmt.Println("output file called " + outFile + " already exist. Removing...")
+			removeError := os.Remove(outFile)
+			if removeError != nil {
+				return removeError
+			}
+			fmt.Println("file " + outFile + " has been removed successfully")
 		}
-		fmt.Println("file " + outFile + " has been removed successfully")
-	}
 	*/
 
 	// extract audio from video using ffmpeg library
